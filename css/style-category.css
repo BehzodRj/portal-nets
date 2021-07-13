@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: #141414;
+}
+a {
+  text-decoration: none;
+}
+.famouse-genre__container {
+  max-width: 983px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+.famouse-genre__header {
+  font-family: "Calibri";
+  font-size: 25px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.famouse-genre__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.famouse-genre-inner__block {
+  position: relative;
+  left: 8px;
+  margin: 20px 20px 0 0px;
+  padding: 22px;
+  border: 2px dashed #ffffff;
+  border-radius: 14px;
+}
+.famouse-genre__container .slick-arrow {
+  top: 90px;
+}
+.famouse-genre-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.famouse-genre-items img {
+  width: 70px;
+}
+.famouse-genre-items h3 {
+  margin-top: 10px;
+  font-family: "Calibri";
+  font-size: 17px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.filter-button__container {
+  max-width: 943px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+.filter-button__content button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 100%;
+  padding: 15px;
+  font-family: "Calibri";
+  font-size: 17px;
+  font-family: 100;
+  border: 0;
+  border-radius: 14px;
+  color: #ffffff;
+  background-color: #334ff0;
+  cursor: pointer;
+  outline: none;
+}
+.filter-button__content button:active {
+  opacity: 0.4;
+}
+.filter-button__content img {
+  margin-right: 7px;
+  width: 23px;
+}
+.show-more-button__container {
+  max-width: 983px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+.show-more-button__content button {
+  width: 100%;
+  padding: 15px 0;
+  font-family: "Calibri";
+  font-size: 17px;
+  font-family: 100;
+  border: 2px dashed #fdc730;
+  border-radius: 14px;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.show-more-button__content button:active {
+  opacity: 0.4;
+}

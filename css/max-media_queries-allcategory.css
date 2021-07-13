@@ -1,0 +1,88 @@
+@media screen and (max-width: 1048px) {
+    .recommendation-sliders-inner__block {
+      left: 23px;
+    }
+    .recommendation__container .slick-arrow {
+      margin: 0 180px;
+      z-index: 999;
+    }
+  }
+  @media screen and (max-width: 949px) {
+    .recommendation-sliders-inner__block {
+      left: 19px;
+    }
+    .recommendation__container .slick-arrow {
+      margin: 0 165px;
+      z-index: 999;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .recommendation-sliders-inner__block {
+      left: 13px;
+    }
+    .recommendation__container .slick-arrow {
+      margin: 0 160px;
+      z-index: 999;
+    }
+  }
+  @media screen and (max-width: 889px) {
+    .description__content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .description__content img {
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .description-text__block {
+      width: 100% !important;
+      text-align: center;
+    }
+    .drammas__content {
+        flex-direction: column;
+    }
+    .theater-mask__block {
+        width: 94% !important;
+    }
+    .drammas-text_block {
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 839px) {
+    .recommendation-sliders-inner__block {
+      left: 22px;
+    }
+    .recommendation__container .slick-arrow {
+      margin: 0 165px;
+      z-index: 999;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .recommendation-sliders-inner__block {
+      left: 0.25%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .film-name__content {
+      flex-direction: column;
+      align-items: center !important;
+    }
+    .film-name__footer {
+      width: 100% !important;
+    }
+    .film-name__content button {
+      margin-top: 20px !important;
+    }
+  }
+  @media screen and (max-width: 318px) {
+    .menu__content {
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 282px) {
+    .cast-actors__block {
+      justify-content: center;
+    }
+  }
+  
